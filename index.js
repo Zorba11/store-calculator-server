@@ -1,9 +1,11 @@
 const express = require('express');
 const stockCalculator = require('./stockCalculator');
+const cors = require('cors');
 
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(cors());
 
 app.post('/maxprofit', (req, res) => {
   let prices = req.body.prices;
