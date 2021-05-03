@@ -29,13 +29,14 @@ You can test them by sending POST requests with a body in the format
 {
 	"prices": [1, 2, 3]
 }
-```bash
+```
 
 
 ### Testing
 This project uses Mocha and Assert for testing. Visit http://mochajs.org for details
 
 to execute tests:
+
 ```bash
 npm test
 ```
