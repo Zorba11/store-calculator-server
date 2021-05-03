@@ -2,6 +2,9 @@
 
 The 2 stock calculator functions - calculateMaxProfit and calculateMaxProfitWithShortSell are present in the **stockCalculator.js** file
 
+To see a complete version with a UI, 
+please visit: https://stock-calculator-assignment.netlify.app/
+
 to start project:
 Make sure you have Node JS installed in your machine, then:
 ```bash

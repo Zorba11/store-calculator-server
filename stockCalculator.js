@@ -49,15 +49,6 @@ const calculateMaxProfitWithShortSell = (prices) => {
   return maxProfit;
 }
 
-
-
-let shortPrices1 = [4, 7, 5, 9, 6, 2]; //7
-let shortPrices2 = [2, 6, 3, 8, 5, 3]; //6
-let shortPrices3 = [7, 5, 6, 10, 7, 4, 5, 8]; //6
-let shortPrices4 = [10, 8, 5, 4, 3, 1]; // 9
-
-// console.log(calculateMaxProfitWithShortSell(shortPrices4));
-
 module.exports = {
   calculateMaxProfit,
   calculateMaxProfitWithShortSell
