@@ -15,7 +15,7 @@ describe('StockCalculator functions', function() {
 
     it('should return the maximum profit for a steady series of prices', function() {
       let prices = [7, 5, 6, 10, 7, 4, 5, 8];
-      assert.strictEqual(calculateMaxProfit(prices), 5);
+      assert.strictEqual(calculateMaxProfit(prices), 6);
     });
 
     it('should return a minimum loss if the prices have decreasing trend', function() {
