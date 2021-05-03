@@ -9,6 +9,7 @@ app.use(cors());
 
 app.post('/maxprofit', (req, res) => {
   let prices = req.body.prices;
+  console.log('body..', req.body);
   console.log('prices..', prices);
   if (!prices || prices.some(isNaN)) {
    return res.status(400).send('Please input stock prices!');
