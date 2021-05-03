@@ -1,6 +1,6 @@
 #StockCalculator
 
-The 2 stock calculator functions - calculateMaxProfit and calculateMaxProfitWithShortSell are present in the stockCalculator.js file
+The 2 stock calculator functions - calculateMaxProfit and calculateMaxProfitWithShortSell are present in the **stockCalculator.js** file
 
 to start project:
 Make sure you have Node JS installed in your machine, then:
