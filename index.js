@@ -9,8 +9,8 @@ app.use(cors());
 
 app.post('/maxprofit', (req, res) => {
   let prices = req.body.prices;
-
-  if (prices.some(isNaN)) {
+  console.log('prices..', prices);
+  if (!prices || prices.some(isNaN)) {
    return res.status(400).send('Please input stock prices!');
   }
 
@@ -27,7 +27,7 @@ app.post('/maxprofit', (req, res) => {
 app.post('/maxprofitwithshortsell', (req, res) => {
   let prices = req.body.prices;
 
-  if (prices.some(isNaN)) {
+  if (!prices || prices.some(isNaN)) {
     return res.status(400).send('Please input stock prices!');
   }
 
