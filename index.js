@@ -39,6 +39,6 @@ app.post('/maxprofitwithshortsell', (req, res) => {
 
 });
 
-app.listen(4000, () => {
-  console.log('listening on 4000');
+app.listen(process.env.PORT || 4000, () => {
+  console.log(`listening on PORT: 4000`);
 })
