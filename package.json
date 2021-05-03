@@ -4,7 +4,7 @@
   "description": "This project uses EditorConfig to standardize text editor configuration. Visit http://editorconfig.org for details.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "test": "mocha"
   },
   "author": "alen george",
